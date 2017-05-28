@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+<br />
+<input type="button" value="submit" onclick="myFunction();" />
+
+<script>
+function myFunction() {
+    var a = document.getElementById("demo").innerHTML = "Hello World!";
+	alert(a);
+var currentdate = new Date(); 
+var datetime = currentdate.getHours() + ":" + currentdate.getMinutes();
+console.log(datetime);
+alert(datetime);
+}
+</script>
+
+</body>
